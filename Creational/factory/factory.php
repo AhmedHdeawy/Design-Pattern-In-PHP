@@ -14,6 +14,9 @@ interface BankFactory
 	public function getBank($code);
 }
 
+/**
+ * Concrete Factory that will implement the interface and determine which type should return
+ */
 class ConcreteBankFacotry implements BankFactory
 {
 	public function getBank($code)
