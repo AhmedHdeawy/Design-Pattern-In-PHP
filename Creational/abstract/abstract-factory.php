@@ -2,7 +2,7 @@
 
 
 /**
- * Factory Pattern Details
+ * Abstract Factory Pattern Details
  * 
  * Create BankFactory Interface
  *

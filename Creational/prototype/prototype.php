@@ -34,7 +34,7 @@ class Page
 	{
 		// Clone title only with some modification
 		$this->title = "Copy of .." . $this->title;
-		
+
 		// Add this page to this author
 		$this->author->addPage($this);
 
